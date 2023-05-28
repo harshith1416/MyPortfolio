@@ -1,0 +1,24 @@
+#Introduction h1 {
+    margin: 0em;
+    font-size: 4em;
+    color: white;
+}
+
+#Introduction h2 {
+    font-size: 2em;
+    color: white;
+}
+
+#Introduction p {
+    font-size: 1.5em;
+    color: white;
+}
+
+#downloadCV {
+    background-color:rgb(88, 210, 125);
+    border-radius: 0.5em;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+}

@@ -1,0 +1,19 @@
+#NavBar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 1.5em;
+}
+
+#NavBar ul li a {
+    display: block;
+    text-decoration: none;
+    color:aqua;
+}
+
+#NavBar ul li a:hover {
+    color: black;
+}
+
+#NavBar ul li a:active {
+    color: black;
+}
