@@ -1,19 +1,19 @@
 #mainPage {
   display: flex;
-  padding: 1.5em;
+  padding: 1em;
   width: 100%;
   background-color: #1E1E1E;
+  justify-content: space-between;
 }
 
 #LeftPart {
   display: flex;
   flex-direction: column;
-  margin: 2em;
-  width: 30%;
+  margin: 1em;
+  width: 35%;
 }
 
 #RightPart {
-  margin: 0px;
-  margin: 2em;
+  margin: 3em 2em 2em 3em;
   width: 60%;
 }

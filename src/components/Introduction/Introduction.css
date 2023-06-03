@@ -1,5 +1,9 @@
+#Introduction {
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
 #Introduction h1 {
-    margin: 0em;
     font-size: 4em;
     color: white;
 }
@@ -7,11 +11,13 @@
 #Introduction h2 {
     font-size: 2em;
     color: white;
+    margin-bottom: 0.5em;
 }
 
 #Introduction p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: white;
+    margin-bottom: 0.5em;
 }
 
 #downloadCV {
@@ -20,5 +26,5 @@
     border: 2px solid white;
     color: white;
     padding: 0.5em;
-    margin: 0.5em;
+    margin-top: 0.5em;
 }

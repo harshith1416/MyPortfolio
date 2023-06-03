@@ -1,16 +1,21 @@
 import "./ProjectsCard.css"
-export default function ProjectsCard() {
+type ProjectCardProp = {
+    name: string;
+    github: string;
+    website?: string;
+}
+export default function ProjectsCard(props: ProjectCardProp) {
   return (
     <div className = "ProjectsCard">
         <div>
-
+            <img ref = { "../../assets" + props.name} />
         </div>
         <h1>
-            Project
+            {props.name}
         </h1>
         <div>
-            <button>Github</button>
-            <button>Website</button>
+            <button ref = {props.github}>Github</button>
+            <button ref = {props.website}>Website</button>
         </div>
     </div>
   )

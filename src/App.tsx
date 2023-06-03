@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutMe from './components/AboutMe/AboutMe'
+import Blogs from './components/Blogs/Blogs'
 import Contact from './components/Contact/Contact'
 import Experience from './components/Experience/Experience'
 import Introduction from './components/Introduction/Introduction'
@@ -24,6 +25,7 @@ function App() {
           <Route path = "/Experience" element = { <Experience />} />
           <Route path = "/Skills" element = { <Skills />} />
           <Route path = "/Projects" element = { <Projects />} />
+          <Route path = "/Blogs" element = { <Blogs />} />
           <Route path = "/Contact" element = { <Contact />} />
         </Routes>
       </div>
